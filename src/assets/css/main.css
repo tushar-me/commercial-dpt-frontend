@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('../scss/app.scss');
 
 .swiper-button-prev, .swiper-button-next {
     color:#01C3CC !important;
@@ -19,3 +20,19 @@
 .swiper-button-next::after {
     font-size:30px !important;
 }
+input[type='text'], input[type='number'],textarea{
+   
+    @apply border border-primary bg-transparent bg-white;
+    &:focus {
+        @apply ring-0 border-primary shadow-md shadow-primary/50 transition-all ease-in-out duration-100;
+    }
+}
+input[type=checkbox]:checked {
+    accent-color: #01C3CC !important;
+    color: #ffffff !important;
+  }
+/* input[type='checkbox'] {
+    accent-color: #01C3CC;
+    color: #ffffff !important;
+} */
+

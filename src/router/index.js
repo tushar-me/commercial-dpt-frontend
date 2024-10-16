@@ -59,6 +59,11 @@ const router = createRouter({
       name: 'Checkout',
       component:() => import('@/views/Checkout.vue')
     },
+    {
+      path: '/quatation',
+      name: 'QuatationForm',
+      component:() => import('@/views/QuatationForm.vue')
+    },
   ]
 })
 

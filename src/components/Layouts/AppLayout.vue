@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Header from "@/components/Layouts/Header.vue";
+import TopHeader from "@/components/Layouts/TopHeader.vue";
 import Footer from "@/components/Layouts/Footer.vue";
 import MobileNav from "@/components/Layouts/MobileNav.vue";
 </script>
@@ -7,7 +7,7 @@ import MobileNav from "@/components/Layouts/MobileNav.vue";
 <template>
 
   <MobileNav />
-    <Header />
+    <TopHeader />
       <slot />
     <Footer />
 </template>

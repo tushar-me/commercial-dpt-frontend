@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@vuepic/vue-datepicker": "^9.0.3",
     "pinia": "^2.1.7",
     "swiper": "^11.1.12",
     "vue": "^3.4.29",
@@ -22,15 +23,16 @@
     "@types/node": "^20.14.5",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/tsconfig": "^0.5.1",
+    "@websitebeaver/vue-magnifier": "^1.1.0",
     "autoprefixer": "^10.4.20",
     "npm-run-all2": "^6.2.0",
     "postcss": "^8.4.45",
-    "sass": "^1.78.0",
+    "sass": "^1.79.5",
     "tailwindcss": "^3.4.10",
     "typescript": "~5.4.0",
     "vite": "^5.3.1",
     "vue-inner-image-zoom": "^2.0.0",
-    "@websitebeaver/vue-magnifier": "^1.1.0",
+    "vue-select": "^4.0.0-beta.6",
     "vue-tsc": "^2.0.21"
   }
 }
